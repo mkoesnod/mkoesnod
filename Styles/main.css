@@ -1,0 +1,87 @@
+body {
+  background-color: white;
+}
+.site-header h1{
+  font-family: 'Pacifico', cursive;
+  font-size-adjust: auto;
+  display: center;
+  text-align: center;
+  border: solid 4px;
+  padding: 10px auto 10px;
+}
+.Navigation a {
+  color: grey;
+  text-decoration: none;
+  display: center;
+}
+.Navigation a:hover, a:active {
+  background-color: transparent;
+}
+.Navigation ul{
+  text-align: center;
+
+}
+.Navigation li{
+  font-family: 'Pacifico', cursive;
+  <!-- font-family: 'Vesper Libre', serif; -->
+  font-size: 80px;
+  width: 100px;
+  border: none;
+  display: inline-block;
+  margin: 0px 20px 0px 10px;
+  text-align: center;
+}
+/*color is not working*/
+
+.Site-Inner {
+  color: black;
+}
+
+.Site-Inner img {
+  width: 100px;
+  height: 100px;
+
+}/*body {
+  background-color: cyan;
+}
+.site-header h1{
+  font-family: 'Pacifico', cursive;
+  font-size-adjust: auto;
+  display: center;
+  text-align: center;
+  border: solid 4px;
+  padding: 10px auto 10px;
+}
+.Navigation a {
+  color: grey;
+  text-decoration: none;
+  display: center;
+}
+.Navigation a:hover, a:active {
+  background-color: transparent;
+}
+.Navigation li{
+  font-family: 'Vesper Libre', serif;
+  font-size: 20px;
+  border:none;
+  text-align: center;
+  padding: 50px auto 50px auto;
+  display: inline-block;
+  margin: auto 10px auto 10px;
+}
+/*color is not working*/
+
+/*.Site-Inner {
+  color: cyan;
+}
+
+.Site-Inner img {
+  width: 100px;
+  height: 100px;*/
+
+}
+
+
+
+/*font-family: 'Pacifico', cursive;
+font-family: 'Vesper Libre', serif;*/*/
