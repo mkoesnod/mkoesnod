@@ -35,12 +35,17 @@ body {
 
 .Site-Inner {
   color: black;
+  text-align: center;
 }
 
 .Site-Inner img {
-  width: 100px;
-  height: 100px;
+  width: 450px;
+  height: 450px;
 
+}
+
+
+}
 }/*body {
   background-color: cyan;
 }
