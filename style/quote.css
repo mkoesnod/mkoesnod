@@ -1,0 +1,98 @@
+body {
+  background-color: yellow;
+  border-style: solid;
+  border-width: 50px;
+  border-color: red blue purple green;
+}
+
+blockquote {
+  font-family: 'Sriracha', cursive;
+  background-color: pink;
+  border-style: dashed;
+  border-color: red blue purple green;
+  text-align: center;
+  display: block;
+  padding: 20px;
+  border-radius: 20px;
+  background-image: url("https://gallery.mailchimp.com/2dba5e3be9f140a126eba45c8/images/032613_holi.jpg");
+  background-size: contain;
+}
+
+strong {
+  color: darkmagenta;
+  font-size: 5vmin;
+  text-align: center;
+  background-color: orange;
+  font-family: 'Tillana', cursive;
+}
+
+cite {
+  color: Seagreen;
+  font-size: 20px;
+  font-family: 'Tillana', cursive;
+  text-align: center;
+  background-color: pink;
+}
+
+em {
+  color: darkmagenta;
+  font-size: 5vmin;
+  text-align: center;
+  background-color: orange;
+  font-family: 'Tillana', cursive;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  border: 3px solid;
+  border-radius: 20px;
+  border-color: red blue purple green;
+  padding: 3px;
+  display: center;
+  display: in-line;
+  float: center;
+  margin: auto;
+}
+
+.div {
+  display: row;
+}
+
+}
+
+h1 {
+  font-family: 'Tillana', cursive;
+  background-color: yellow;
+  color: darkcyan;
+  text-align: center;
+}
+
+a {
+  color: darkcyan;
+  font-size: 30px;
+}
+
+a:hover,
+a:active {
+  background-color: cyan;
+  display: in-line;
+}
+
+section {
+  font-family: 'Tillana', cursive;
+  background-color: yellow;
+  color: #FF2B37;
+  font-weight: bold;
+  font-stretch: expanded;
+  display: right;
+  font-family: 'Atma', cursive;
+
+div.Doodle {
+  font-family: 'Atma', cursive;
+  background-color: yellow;
+  color: darkcyan;
+  font-weight: bold;
+  font-stretch: expanded;
+  display: right;
+}
