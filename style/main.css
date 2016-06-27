@@ -1,7 +1,8 @@
 body {
   background-color: white;
 }
-.site-header h1{
+
+.site-header h1 {
   font-family: 'Pacifico', cursive;
   font-size-adjust: auto;
   display: center;
@@ -9,31 +10,39 @@ body {
   border: solid 4px;
   padding: 10px auto 10px;
 }
-.Navigation{
+
+.Navigation {
   border-top: solid 4px;
   border-bottom: solid 4px;
 }
+
 .Navigation a {
   color: grey;
   text-decoration: none;
   display: center;
 }
-.Navigation a:hover, a:active {
+
+.Navigation a:hover,
+a:active {
   background-color: transparent;
 }
-.Navigation ul{
+
+.Navigation ul {
   text-align: center;
 }
-.Navigation li{
+
+.Navigation li {
   font-family: 'Pacifico', cursive;
-  <!-- font-family: 'Vesper Libre', serif; -->
-  font-size: 80px;
+  <!-- font-family: 'Vesper Libre', serif;
+  --> font-size: 80px;
   width: 100px;
   border: none;
   display: inline-block;
   margin: 0px 20px 0px 10px;
   text-align: center;
 }
+
+
 /*color is not working*/
 
 .Site-Inner {
@@ -44,9 +53,10 @@ body {
   height: 600px;
   padding: 15px;
   border-bottom: 10px;
-  margin-left: 500px;
-  margin-right: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .Site-Inner p {
   color: black;
   text-align: center;
@@ -54,33 +64,43 @@ body {
   margin-top: 70px;
 }
 
-.footer{
+.footer {
   border-top: solid 4px;
   border-bottom: solid 4px;
 }
-.footer ul{
+
+.footer ul {
   text-align: center;
 }
+
 .footer li {
   font-family: 'Pacifico', cursive;
-  <!-- font-family: 'Vesper Libre', serif; -->
-  font-size: 100px;
+  <!-- font-family: 'Vesper Libre', serif;
+  --> font-size: 100px;
   width: 100px;
   border: none;
   display: inline-block;
   margin: 0px 20px 0px 10px;
   text-align: center;
 }
+
 .footer a {
   color: grey;
   text-decoration: none;
   display: center;
 }
-.footer a:hover, a:active {
+
+.footer a:hover,
+a:active {
   background-color: transparent;
 }
 
+.resume-title{
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  text-align: center;
 
+}
 /*body {
   background-color: cyan;
 }
@@ -111,6 +131,7 @@ body {
 }
 /*color is not working*/
 
+
 /*.Site-Inner {
   color: cyan;
 }
@@ -119,9 +140,9 @@ body {
   width: 100px;
   height: 100px;*/
 
+
 }
 
-
-
 /*font-family: 'Pacifico', cursive;
-font-family: 'Vesper Libre', serif;*/*/
+font-family: 'Vesper Libre', serif;*/
+*/
