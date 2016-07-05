@@ -1,6 +1,5 @@
 body {
-  background-color: white;
-  margin: auto;
+  background-color: plum;
 }
 
 .site-header h1 {
@@ -10,15 +9,11 @@ body {
   text-align: center;
   border: solid 4px;
   padding: 10px auto 10px;
-  margin-left: auto;
-  margin-right: auto;
-
 }
 
 .Navigation {
   border-top: solid 4px;
   border-bottom: solid 4px;
-
 }
 
 .Navigation a {
@@ -34,9 +29,6 @@ a:active {
 
 .Navigation ul {
   text-align: center;
-  padding-left: 40px;
-  padding-right: 40px;
-
 }
 
 .Navigation li {
@@ -47,56 +39,33 @@ a:active {
   border: none;
   display: inline-block;
   margin: 0px 20px 0px 10px;
-  text-align: center;
-}
-
-
-/*color is not working*/
-
-.mobileimg{
-  clear: both;
-}
-.Site-Inner {
-  background-image: url("https://scontent-sjc2-1.xx.fbcdn.net/v/t1.0-9/12507282_10153129686696920_3714748205813515746_n.jpg?oh=fd7bb96032749b5f1b83670c5e2809e4&oe=5802A214");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 600px;
-  width: 600px;
-  padding: 15px;
-  border-bottom: 10px;
-  margin: auto;
-  max-width: 100%;
-}
-
-.Site-Inner p {
-  color: black;
-  text-align: center;
-  margin-left: 300px;
-  margin-top: 70px;
-font-family: 'Vesper Libre', serif;
-}
+    text-align: center;}
 
 .resume-title{
   font-family: 'Pacifico', cursive;
-  font-size: 40px;
-  text-align: center;
+  font-size: 30px;
+  text-align: left;
+  margin: 0;
+}
+.resume-listed h3, h4, ul{
+  font-family: 'Vesper Libre', serif;
+  margin: 0;
+  text-align: left;
+  padding-top: 0;
+  padding-right: 0;
 }
 .resume-listed h3{
-  font-family: 'Vesper Libre', serif;
   font-size: 20px;
   margin:0px;
 }
 .resume-listed h4{
-  font-family: 'Vesper Libre', serif;
   font-size: 15px;
-  margin: 0px;
+  font-style: italic;
 }
 .resume-listed ul{
-  font-family: 'Vesper Libre', serif;
   font-size: 15px;
-  margin: 0px;
 }
+
 .footer {
   border-top: solid 4px;
   border-bottom: solid 4px;
@@ -141,28 +110,4 @@ a:active {
   text-decoration: none;
   margin: auto;
   padding-bottom: 10px;
-}
-
-@media only screen and (max-width: 650px){
-  .Navigation li {
-    width: 100%;
-    margin: auto;
-  }
-  .Site-Inner {
-    background-image: none;
-  }
-  .mobileimg{
-    width: 100%;
-    magrin: auto;
-  }
-  .Site-Inner p {
-   margin: auto;
-   width: auto;
-  }
-  .footer {
-
-
-  }
-
-
 }
