@@ -22,7 +22,7 @@ body {
 }
 
 .Navigation a {
-  color: grey;
+  color: #595959;
   text-decoration: none;
   display: center;
 }
@@ -121,7 +121,7 @@ font-family: 'Vesper Libre', serif;
 }
 
 .footer a {
-  color: grey;
+  color: #595959;
   text-decoration: none;
   display: center;
 }
@@ -131,18 +131,17 @@ a:active {
   background-color: transparent;
 }
 
-.copyright{
+.copyright {
   font-family: 'Pacifico', cursive;
   text-align: center;
   font-size: 12px;
-  width: 500px;
+  max-width: 500px;
   border: none;
-  color: grey;
+  color: #595959;
   text-decoration: none;
   margin: auto;
   padding-bottom: 10px;
 }
-
 @media only screen and (max-width: 650px){
   .Navigation li {
     width: 100%;
@@ -150,19 +149,15 @@ a:active {
   }
   .Site-Inner {
     background-image: none;
-  }
-  .mobileimg{
+    background-color: white;
+    height: auto;
+    border-top: 10px;
     width: 100%;
-    magrin: auto;
+    margin: auto;
   }
+
   .Site-Inner p {
    margin: auto;
    width: auto;
-  }
-  .footer {
-
-
-  }
-
-
-}
+   padding: 15px;
+   }}
