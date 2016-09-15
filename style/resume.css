@@ -1,5 +1,6 @@
 body {
-  background-color: plum;
+  background-color: white;
+  text-align: center;
 }
 
 .site-header h1 {
@@ -44,26 +45,14 @@ a:active {
 .resume-title{
   font-family: 'Pacifico', cursive;
   font-size: 30px;
-  text-align: left;
+  text-align: center;
   margin: 0;
+  height: 100px;
 }
-.resume-listed h3, h4, ul{
-  font-family: 'Vesper Libre', serif;
-  margin: 0;
-  text-align: left;
-  padding-top: 0;
-  padding-right: 0;
-}
-.resume-listed h3{
-  font-size: 20px;
-  margin:0px;
-}
-.resume-listed h4{
-  font-size: 15px;
-  font-style: italic;
-}
-.resume-listed ul{
-  font-size: 15px;
+embed.resume{
+  margin-top: 10px;
+  margin-bottom: 10px;
+
 }
 
 .footer {
