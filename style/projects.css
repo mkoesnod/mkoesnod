@@ -1,3 +1,4 @@
+
 body {
   background-color: white;
   text-align: center;
@@ -42,21 +43,27 @@ a:active {
   border: none;
   display: inline-block;
   margin: 0px 20px 0px 10px;
-    text-align: center;}
+    text-align: center;
+  }
 
-.resume-title{
-  font-family: 'Pacifico', cursive;
-  font-size: 30px;
-  text-align: center;
-  margin: 0;
-  height: 100px;
-}
-embed.resume{
+.project_list {
   margin-top: 10px;
   margin-bottom: 10px;
-
 }
 
+img {
+    border: solid black;
+}
+.project_title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+  }
+
+a.project_title{
+  color: black;
+}
 .footer {
   border-top: solid 4px;
   border-bottom: solid 4px;

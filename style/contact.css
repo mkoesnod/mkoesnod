@@ -1,6 +1,6 @@
 body {
-  background-image: url("https://scontent-sjc2-1.xx.fbcdn.net/v/t1.0-9/12507282_10153129686696920_3714748205813515746_n.jpg?oh=fd7bb96032749b5f1b83670c5e2809e4&oe=5802A214");
-  background-s
+  background-color: white;
+  text-align: center;
 }
 
 .site-header h1 {
@@ -18,7 +18,7 @@ body {
 }
 
 .Navigation a {
-  color: grey;
+  color: #E80C7A;
   text-decoration: none;
   display: center;
 }
@@ -26,6 +26,8 @@ body {
 .Navigation a:hover,
 a:active {
   background-color: transparent;
+  font-weight: bolder;
+  color: #595959;
 }
 
 .Navigation ul {
@@ -40,53 +42,21 @@ a:active {
   border: none;
   display: inline-block;
   margin: 0px 20px 0px 10px;
-  text-align: center;
-}
-
-
-/*color is not working*/
-
-.Site-Inner {
-  background-image: url("https://scontent-sjc2-1.xx.fbcdn.net/v/t1.0-9/12507282_10153129686696920_3714748205813515746_n.jpg?oh=fd7bb96032749b5f1b83670c5e2809e4&oe=5802A214");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 600px;
-  width: 600px;
-  padding: 15px;
-  border-bottom: 10px;
-  margin: auto;
-
-}
-
-.Site-Inner p {
-  color: black;
-  text-align: center;
-  margin-left: 300px;
-  margin-top: 70px;
-font-family: 'Vesper Libre', serif;
-}
+    text-align: center;}
 
 .resume-title{
   font-family: 'Pacifico', cursive;
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
+  margin: 0;
+  height: 100px;
 }
-.resume-listed h3{
-  font-family: 'Vesper Libre', serif;
-  font-size: 20px;
-  margin:0px;
+embed.resume{
+  margin-top: 10px;
+  margin-bottom: 10px;
+
 }
-.resume-listed h4{
-  font-family: 'Vesper Libre', serif;
-  font-size: 15px;
-  margin: 0px;
-}
-.resume-listed ul{
-  font-family: 'Vesper Libre', serif;
-  font-size: 15px;
-  margin: 0px;
-}
+
 .footer {
   border-top: solid 4px;
   border-bottom: solid 4px;
@@ -105,12 +75,13 @@ font-family: 'Vesper Libre', serif;
   border: none;
   display: inline-block;
   margin: 0px 20px 0px 10px;
+  padding-bottom: 10px;
   text-align: center;
 
 }
 
 .footer a {
-  color: grey;
+  color: #E80C7A;
   text-decoration: none;
   display: center;
 }
@@ -118,13 +89,15 @@ font-family: 'Vesper Libre', serif;
 .footer a:hover,
 a:active {
   background-color: transparent;
+  font-weight: bolder;
+  color: #595959;
 }
 
-.footer p{
+.copyright{
   font-family: 'Pacifico', cursive;
   text-align: center;
-  font-size: 10px;
-  width: 200px;
+  font-size: 12px;
+  width: 500px;
   border: none;
   color: grey;
   text-decoration: none;

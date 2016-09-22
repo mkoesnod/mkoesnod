@@ -22,7 +22,7 @@ body {
 }
 
 .Navigation a {
-  color: #595959;
+  color: #E80C7A;
   text-decoration: none;
   display: center;
 }
@@ -30,7 +30,11 @@ body {
 .Navigation a:hover,
 a:active {
   background-color: transparent;
+  font-weight: bolder;
+  color: #595959;
 }
+
+
 
 .Navigation ul {
   text-align: center;
@@ -49,9 +53,6 @@ a:active {
   margin: 0px 20px 0px 10px;
   text-align: center;
 }
-
-
-/*color is not working*/
 
 .mobileimg{
   clear: both;
@@ -121,7 +122,7 @@ font-family: 'Vesper Libre', serif;
 }
 
 .footer a {
-  color: #595959;
+  color: #E80C7A;
   text-decoration: none;
   display: center;
 }
@@ -129,6 +130,8 @@ font-family: 'Vesper Libre', serif;
 .footer a:hover,
 a:active {
   background-color: transparent;
+  font-weight: bolder;
+  color: #595959;
 }
 
 .copyright {
