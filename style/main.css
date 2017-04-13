@@ -54,20 +54,17 @@ a:active {
   text-align: center;
 }
 
-.mobileimg{
+.mobileimg {
   clear: both;
 }
+
 .Site-Inner {
-  background-image: url("https://scontent.fsnc1-5.fna.fbcdn.net/v/t1.0-9/12507282_10153129686696920_3714748205813515746_n.jpg?oh=5655702e3ccdc6768c1c0ab555b0a6da&oe=58C86314");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 600px;
   width: 600px;
   padding: 15px;
   border-bottom: 10px;
   margin: auto;
   max-width: 100%;
+  text-align: center;
 }
 
 .Site-Inner p {
@@ -75,7 +72,7 @@ a:active {
   text-align: center;
   margin-left: 300px;
   margin-top: 70px;
-font-family: 'Vesper Libre', serif;
+  font-family: 'Vesper Libre', serif;
 }
 
 .resume-title{
